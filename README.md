@@ -4,9 +4,9 @@
 
 ## 修改内容
 
-在 `index.html` 中搜索以下占位内容并替换：
+可在 `index.html` 中搜索并修改以下内容：
 
-- `你的名字` / `YourName`
+- `Devil`（英文品牌字样）
 - `Your University`
 - `hello@example.com`
 - `github.com/ychq1314`
