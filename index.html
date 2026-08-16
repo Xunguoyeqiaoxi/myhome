@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="你的名字的个人学术空间：关于研究、好奇心，以及理性与诗意的长期探索。"
+    />
+    <meta name="theme-color" content="#070d18" />
+    <title>你的名字｜个人学术空间</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main-content">跳到主要内容</a>
+    <canvas id="starfield" aria-hidden="true"></canvas>
+    <div class="page-atmosphere" aria-hidden="true"></div>
+
+    <header class="site-header" data-header>
+      <nav class="navbar page-shell" aria-label="主导航">
+        <a class="identity" href="#home" aria-label="返回首页">
+          <span class="identity-mark" aria-hidden="true">YN</span>
+          <span class="identity-copy">
+            <strong>你的名字</strong>
+            <span>THINK · EXPLORE · CREATE</span>
+          </span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          aria-label="打开导航菜单"
+          data-nav-toggle
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-panel" id="primary-navigation" data-nav-panel>
+          <div class="nav-links">
+            <a href="#about" data-nav-link>关于</a>
+            <a href="#research" data-nav-link>研究视野</a>
+            <a href="#interests" data-nav-link>兴趣</a>
+            <a href="#contact" data-nav-link>与我联系</a>
+          </div>
+          <a class="nav-cta" href="mailto:hello@example.com">
+            <span>来信</span>
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero page-shell" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy reveal is-visible">
+          <p class="eyebrow"><span></span> PERSONAL ACADEMIC SPACE</p>
+          <h1 id="hero-title">你的名字</h1>
+          <p class="hero-statement">在理性的边界，保留对未知的温柔好奇。</p>
+          <p class="hero-intro">
+            我关注学科交叉处产生的新问题，尝试用研究、技术与持续写作，理解复杂系统背后的秩序与可能。
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#about">
+              认识我 <span aria-hidden="true">↓</span>
+            </a>
+            <a
+              class="button button-ghost"
+              href="https://github.com/ychq1314"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="brand-orbit reveal is-visible" aria-label="个人英文品牌字样">
+          <span class="orbit orbit-one" aria-hidden="true"></span>
+          <span class="orbit orbit-two" aria-hidden="true"></span>
+          <div class="brand-word">YourName</div>
+          <p>A quiet pursuit of reason and wonder.</p>
+        </div>
+
+        <aside class="profile-note reveal is-visible" aria-label="学术信息">
+          <div class="profile-note-top">
+            <span>NOW EXPLORING</span>
+            <span class="live-dot" aria-hidden="true"></span>
+          </div>
+          <p class="profile-university">Your University</p>
+          <p>Discipline · AI · Research</p>
+          <div class="keyword-row" aria-label="研究关键词">
+            <span>Complexity</span>
+            <span>Intelligence</span>
+            <span>Nature</span>
+          </div>
+        </aside>
+
+        <a class="scroll-cue" href="#about" aria-label="向下探索">
+          <span>向下探索</span>
+          <i aria-hidden="true"></i>
+        </a>
+      </section>
+
+      <section class="section about-section page-shell" id="about" aria-labelledby="about-title">
+        <div class="section-index reveal">
+          <span>01</span>
+          <span class="section-line"></span>
+          <span>ABOUT</span>
+        </div>
+
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span></span> 关于我</p>
+          <h2 id="about-title">保持清醒，也保持好奇。</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-intro reveal">
+            <p class="lead">
+              我是一名关注跨学科问题的学习者与研究者，享受从混沌中寻找结构，也珍惜那些暂时没有答案的问题。
+            </p>
+            <p>
+              我的学习路径连接自然科学、计算方法与人文表达。比起追逐短暂的结论，我更关心如何提出准确的问题、构建可靠的方法，并把复杂想法讲得清楚。
+            </p>
+          </div>
+
+          <div class="education reveal">
+            <p class="mini-title">EDUCATION</p>
+            <div class="education-item">
+              <span>20XX — 至今</span>
+              <div>
+                <h3>Your University</h3>
+                <p>你的专业 · 你的研究方向</p>
+              </div>
+            </div>
+            <div class="education-item">
+              <span>持续进行</span>
+              <div>
+                <h3>Independent Inquiry</h3>
+                <p>阅读、实验、写作与开放式学习</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="portrait-frame reveal" aria-label="可替换的个人照片区域">
+            <div class="portrait-glow" aria-hidden="true"></div>
+            <div class="portrait-placeholder">
+              <span>YN</span>
+              <p>YOUR PORTRAIT</p>
+            </div>
+            <p class="portrait-caption">Observe carefully. Think independently.</p>
+          </div>
+
+          <div class="core-words reveal">
+            <p class="mini-title">CORE WORDS</p>
+            <div class="core-word-list">
+              <span>理性</span>
+              <span>好奇</span>
+              <span>长期主义</span>
+              <span>跨学科</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section research-section" id="research" aria-labelledby="research-title">
+        <div class="page-shell">
+          <div class="section-index reveal">
+            <span>02</span>
+            <span class="section-line"></span>
+            <span>RESEARCH</span>
+          </div>
+
+          <div class="section-heading section-heading-wide reveal">
+            <div>
+              <p class="eyebrow"><span></span> 研究视野</p>
+              <h2 id="research-title">在学科交汇处，寻找新的坐标。</h2>
+            </div>
+            <p>
+              研究兴趣并非彼此孤立。它们像一组相互牵引的星体，共同描述我正在形成的问题意识。
+            </p>
+          </div>
+
+          <div class="research-grid">
+            <article class="research-card reveal">
+              <div class="card-number">01</div>
+              <div class="card-symbol" aria-hidden="true">Ch</div>
+              <h3>化学与物质</h3>
+              <p>Chemistry &amp; Matter</p>
+              <span class="card-divider"></span>
+              <p class="card-description">从微观结构出发，理解物质性质、反应路径与可控变化。</p>
+              <div class="card-tags"><span>结构</span><span>反应</span><span>材料</span></div>
+            </article>
+
+            <article class="research-card reveal">
+              <div class="card-number">02</div>
+              <div class="card-symbol" aria-hidden="true">Ai</div>
+              <h3>人工智能</h3>
+              <p>Artificial Intelligence</p>
+              <span class="card-divider"></span>
+              <p class="card-description">关注机器学习如何辅助发现、解释复杂数据并拓展人的认知。</p>
+              <div class="card-tags"><span>学习</span><span>推理</span><span>计算</span></div>
+            </article>
+
+            <article class="research-card reveal">
+              <div class="card-number">03</div>
+              <div class="card-symbol" aria-hidden="true">En</div>
+              <h3>环境科学</h3>
+              <p>Environmental Science</p>
+              <span class="card-divider"></span>
+              <p class="card-description">研究自然系统与人类活动之间的反馈，寻找更稳健的未来路径。</p>
+              <div class="card-tags"><span>生态</span><span>气候</span><span>可持续</span></div>
+            </article>
+
+            <article class="research-card reveal">
+              <div class="card-number">04</div>
+              <div class="card-symbol" aria-hidden="true">X</div>
+              <h3>交叉研究</h3>
+              <p>Interdisciplinary Inquiry</p>
+              <span class="card-divider"></span>
+              <p class="card-description">跨越既有边界，连接科学问题、技术工具与真实世界需求。</p>
+              <div class="card-tags"><span>系统</span><span>创新</span><span>协作</span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section interests-section page-shell" id="interests" aria-labelledby="interests-title">
+        <div class="section-index reveal">
+          <span>03</span>
+          <span class="section-line"></span>
+          <span>INTERESTS</span>
+        </div>
+
+        <div class="section-heading section-heading-wide reveal">
+          <div>
+            <p class="eyebrow"><span></span> 日常兴趣</p>
+            <h2 id="interests-title">研究之外，生活仍有辽阔的注脚。</h2>
+          </div>
+          <p>这些微小而持续的兴趣，构成了我的观察方式，也让严谨的世界保有温度。</p>
+        </div>
+
+        <div class="interest-list">
+          <article class="interest-item reveal">
+            <span class="interest-index">01</span>
+            <div class="interest-icon" aria-hidden="true">阅</div>
+            <div><h3>阅读</h3><p>READING</p></div>
+            <p>在不同作者的思想坐标中，寻找新的观看方式。</p>
+          </article>
+          <article class="interest-item reveal">
+            <span class="interest-index">02</span>
+            <div class="interest-icon" aria-hidden="true">写</div>
+            <div><h3>写作</h3><p>WRITING</p></div>
+            <p>把模糊的感受与复杂的判断，整理为清晰的语言。</p>
+          </article>
+          <article class="interest-item reveal">
+            <span class="interest-index">03</span>
+            <div class="interest-icon" aria-hidden="true">影</div>
+            <div><h3>摄影</h3><p>PHOTOGRAPHY</p></div>
+            <p>记录光线、空间，以及日常里容易被忽略的秩序。</p>
+          </article>
+          <article class="interest-item reveal">
+            <span class="interest-index">04</span>
+            <div class="interest-icon" aria-hidden="true">技</div>
+            <div><h3>技术</h3><p>TECHNOLOGY</p></div>
+            <p>以克制而实用的工具，把想法逐步变成真实作品。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="page-shell contact-inner">
+          <div class="contact-copy reveal">
+            <p class="eyebrow"><span></span> 与我联系</p>
+            <h2 id="contact-title">让一次真诚的交流，<br />成为新的起点。</h2>
+            <p>如果你对我的研究方向、项目或任何有趣的问题感兴趣，欢迎来信。</p>
+          </div>
+
+          <div class="contact-links reveal">
+            <a href="mailto:hello@example.com">
+              <span><small>EMAIL</small>hello@example.com</span>
+              <span aria-hidden="true">↗</span>
+            </a>
+            <a href="https://github.com/ychq1314" target="_blank" rel="noreferrer">
+              <span><small>GITHUB</small>github.com/ychq1314</span>
+              <span aria-hidden="true">↗</span>
+            </a>
+            <a href="#contact" aria-label="微信联系方式占位">
+              <span><small>WECHAT</small>your-wechat-id</span>
+              <span aria-hidden="true">＋</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="page-shell footer-inner">
+        <a class="footer-brand" href="#home">YourName<span>°</span></a>
+        <p>在理性与未知之间，保持长期探索。</p>
+        <p>© <span data-current-year>2026</span> 你的名字</p>
+      </div>
+    </footer>
+  </body>
+</html>
