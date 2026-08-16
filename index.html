@@ -21,7 +21,9 @@
     <header class="site-header" data-header>
       <nav class="navbar page-shell" aria-label="主导航">
         <a class="identity" href="#home" aria-label="返回首页">
-          <span class="identity-mark" aria-hidden="true">寻</span>
+          <span class="identity-mark" aria-hidden="true">
+            <img src="assets/avatar.jpg" alt="" />
+          </span>
           <span class="identity-copy">
             <strong>寻过野桥西</strong>
             <span>THINK · EXPLORE · CREATE</span>
@@ -146,11 +148,16 @@
             </div>
           </div>
 
-          <div class="portrait-frame reveal" aria-label="可替换的个人照片区域">
+          <div class="portrait-frame reveal">
             <div class="portrait-glow" aria-hidden="true"></div>
-            <div class="portrait-placeholder">
-              <span>寻</span>
-              <p>YOUR PORTRAIT</p>
+            <div class="portrait-image-wrap">
+              <img
+                class="portrait-image"
+                src="assets/avatar.jpg"
+                alt="寻过野桥西的个人头像"
+                loading="lazy"
+                decoding="async"
+              />
             </div>
             <p class="portrait-caption">Observe carefully. Think independently.</p>
           </div>
