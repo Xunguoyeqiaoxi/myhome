@@ -9,7 +9,7 @@
 - `Devil`（英文品牌字样）
 - `Your University`
 - `hello@example.com`
-- `github.com/ychq1314`
+- `github.com/Xunguoyeqiaoxi`
 - `your-wechat-id`
 - 专业、研究方向、简介、兴趣与教育经历
 
